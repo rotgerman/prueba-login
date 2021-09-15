@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Righteous&display=swap');
 
 body{
     /* background-color: rgb(224, 160, 203); */
@@ -12,31 +12,34 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: steelblue;
+    background-image: url(./assets/fondo\ dbz.webp);
+    background-size:cover;
+    
 } 
 
+
 article{
-    background-color: rgb(64, 96, 184);
+    background:rgb(250, 163, 2, 0.8);
     width: 20%;
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 7px;
-    border-style: solid;
-    border-color: rgb(109, 146, 180);
+    border-radius: 15px;
+    /* border-style: solid; */
+    /* border-color: rgb(109, 146, 180); */
 }
 
 img {
     width: 100%;
     max-width: 150px;
     min-width: 65px;
-    max-height: 150px;
+    max-height: 130px;
 }
 
 h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Righteous', cursive;
 }
 
 .login-input{
@@ -51,30 +54,31 @@ h1{
 }
 
 .login-input p input{
-    max-width: 600px;
-    display: flex;
-    flex-direction:column;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 20px;
-    border-style: solid;
-    cursor: grab;
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Righteous', cursive;
 }
 
 .login-input p input::placeholder{
-    color: violet;
+    color: rgb(5, 5, 5);
 }
 
 button{
 
     width: 100%;
     height: 23px;
-    background:  #202157;
+    background:  #3b3ee0;
     color:  #ffffff;
     border-radius: 25px;
-    border: 1px solid #202157;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8px;
+    border: 1px solid #3b3ee0;
+    font-family: 'Righteous', cursive;
+    font-size: 12px;
     letter-spacing: 0.6px;
     font-weight: 600;
     cursor: pointer;
